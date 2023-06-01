@@ -1,0 +1,2 @@
+webpackJsonp([11],{226:function(n,e,o){n.exports=o(227)},227:function(n,e){void 0===window.CVO&&(window.CVO={}),window.CVO.submitForm=function(n,e){var o=arguments.length>2&&void 0!==arguments[2]?arguments[2]:"post",t=document.createElement("form");for(var i in t.method=o,t.action=n,e)if(e.hasOwnProperty(i)){var d=document.createElement("input");d.type="hidden",d.name=i,d.value=e[i],t.appendChild(d)}document.body.appendChild(t),t.submit()}}},[226]);
+//# sourceMappingURL=submit-helper.js.map
